@@ -6,10 +6,25 @@
   <about-root></about-root>
   <img width="300" alt="Angular Logo" src="{{imagePath}}">
 </div>
+
+<div class= "container">
+
+<div class= "vessels">
 <h2 (click)="changeImage('boom')">vesssels </h2>
+</div>
+
+<div class="mugs">
 <h2 (click)="toggleMugs()">mugs </h2>
+</div>
+
+<div class="bowls">
 <h2 (click)="toggleBowls()">bowls </h2>
+</div>
+
+<div class="teabowls">
 <h2 (click)="toggleTeabowls()">teabowls </h2>
+</div>
+</div>
 
 <div *ngIf="showMugs">
 <div *ngFor="let mug of mugs">

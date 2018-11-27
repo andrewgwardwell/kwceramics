@@ -1,8 +1,32 @@
-.about{
-    height: 50%;
-    width: 100%
+
+.container{
+  background: grey;
+  width: 29%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left:20px;
+  display:flex;
+  flex-direction:row;
+  width:1400px;
+  justify-content:start;
+  flex-wrap: wrap;
+
+
+  h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     line-height: 1.5;
+    
+  }
+ .text-left { font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+     line-height: 1.5;
+    
+  }
+    
+  
 }
 
-.about-row{
-    padding-top: 7%;
-}
+  
+
+
